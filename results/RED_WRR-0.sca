@@ -1,0 +1,131 @@
+version 2
+run RED_WRR-0-20171211-21:06:45-6831
+attr configname RED_WRR
+attr datetime 20171211-21:06:45
+attr experiment RED_WRR
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network DiffservNetwork
+attr processid 6831
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar DiffservNetwork.H1.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H2.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H3.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H4.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H5.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H6.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H7.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H8.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H9.tcpApp[0] 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H10.udpApp[0] 	sentPk:count 	150000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H11.udpApp[0] 	sentPk:count 	150000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H12.udpApp[0] 	sentPk:count 	150000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar DiffservNetwork.H15.tcpApp[0] 	rcvdPk:count 	28363
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar DiffservNetwork.H16.tcpApp[0] 	rcvdPk:count 	12
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar DiffservNetwork.H17.tcpApp[0] 	rcvdPk:count 	4
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar DiffservNetwork.H18.udpApp[0] 	rcvdPk:count 	195127
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar DiffservNetwork.R1.ppp[0].queue.af1Queue 	queueLength:timeavg 	4.7108124622327
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar DiffservNetwork.R1.ppp[0].queue.af1Queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.af1Queue 	rcvdPk:count 	36570
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.af2Queue 	queueLength:timeavg 	0.00069596732870602
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar DiffservNetwork.R1.ppp[0].queue.af2Queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.af2Queue 	rcvdPk:count 	21
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.af3Queue 	queueLength:timeavg 	0.00013364469372508
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar DiffservNetwork.R1.ppp[0].queue.af3Queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.af3Queue 	rcvdPk:count 	10
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.beQueue 	queueLength:timeavg 	0.40746574885638
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar DiffservNetwork.R1.ppp[0].queue.beQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.beQueue 	rcvdPk:count 	195127
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.defaultQueue 	queueLength:timeavg 	-nan
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+scalar DiffservNetwork.R1.ppp[0].queue.defaultQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar DiffservNetwork.R1.ppp[0].queue.defaultQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"

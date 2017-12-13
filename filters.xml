@@ -1,0 +1,20 @@
+<filters>
+  <experiment id="default">
+    <filter srcAddress="H1" gate="0"/>
+    <filter srcAddress="H2" gate="0"/>
+    <filter srcAddress="H3" gate="0"/>
+    
+    <filter srcAddress="H4" gate="1"/>
+    <filter srcAddress="H5" gate="1"/>
+    <filter srcAddress="H6" gate="1"/>
+    
+    <filter srcAddress="H7" gate="2"/>
+    <filter srcAddress="H8" gate="2"/>
+    <filter srcAddress="H9" gate="2"/>
+       
+    <filter srcAddress="H10" gate="3"/>
+    <filter srcAddress="H11" gate="3"/>
+    <filter srcAddress="H12" gate="3"/>
+      
+  </experiment>
+</filters>
